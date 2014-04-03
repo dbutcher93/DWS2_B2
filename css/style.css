@@ -1,5 +1,5 @@
 body {
-	background:url(../images/background.jpg) no-repeat center top;
+	background:url(../images/background.jpg) fixed center top;
 }
 
 .wrapper {
@@ -13,7 +13,7 @@ body {
 
 header {
 	background:url(../images/header.jpg) no-repeat center top;
-	margin: 10px auto;
+	margin: 0px auto;
 	text-align: center;
 	width: 100%;
 }
@@ -24,10 +24,16 @@ li {
 }
 
 ul {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+	font-size: 50px;
+	color: #FFFFFF;
+	padding-top: 50px;
 }
 
 nav {
 
-	padding: 100px 20px 20px 20px;
+	padding: 75px 0px 0px 0px;
 }
