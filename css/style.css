@@ -1,0 +1,33 @@
+body {
+	background:url(../images/background.jpg) no-repeat center top;
+}
+
+.wrapper {
+	max-width: 960px;
+	width: 100%;
+	background-color: #FFFFFF;
+	margin: 10px auto;
+	color: #000000;
+	padding: 10px;
+}
+
+header {
+	background:url(../images/header.jpg) no-repeat center top;
+	margin: 10px auto;
+	text-align: center;
+	width: 100%;
+}
+
+li {
+	display: inline;
+	margin: 50px;
+}
+
+ul {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+nav {
+
+	padding: 100px 20px 20px 20px;
+}
