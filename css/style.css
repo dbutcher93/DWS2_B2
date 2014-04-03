@@ -111,6 +111,8 @@ p {
 	.richie {width:48%;}
 	header{ background:url(../images/bg2.jpg) no-repeat center top; }
 	li {margin: 4%;}
+	body{ background: url(disable) #000000; }
+	.wrapper{background-color: #000000; color:#FFFFFF; border: 3px solid #FFFFFF;}
 }
 
 @media screen and (max-width: 479px){
@@ -120,4 +122,6 @@ p {
 	img {display: none;}
 	li {display: list-item; list-style-type: none;}
 	header{ background:url(../images/bg3.jpg) no-repeat center top; }
+	body{ background: url(disable) #000000; }
+	.wrapper{background-color: #000000; color:#FFFFFF; border: 3px solid #FFFFFF;}
 }
