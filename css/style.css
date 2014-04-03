@@ -51,37 +51,31 @@ footer {
 }
 
 .kam {
-	border: 3px solid #000000;
 	width: 92.59259259259259%;
 	margin: 0 auto;
 }
 
 .richie {
-	border: 3px solid #000000;
 	width: 82.17592592592593%;
 	margin: 0 auto;
 }
 
 .ellington {
-	border: 3px solid #000000;
 	width: 92.59259259259259%;
 	margin: 0 auto;
 }
 
 .dt6 {
-	border: 3px solid #000000;
 	width: 92.59259259259259%;
 	margin: 0 auto;
 }
 
 .dl {
-	border: 3px solid #000000;
 	width: 92.59259259259259%;
 	margin: 0 auto;
 }
 
 .cole {
-	border: 3px solid #000000;
 	width: 92.59259259259259%;
 	margin: 0 auto;
 }
@@ -104,4 +98,26 @@ aside {
 
 p {
 	padding: 5px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+	body{ background: url(disable) #000000; }
+	.wrapper{background-color: #000000; color:#FFFFFF; border: 3px solid #FFFFFF;}
+	.content, aside {border: 3px solid #FFFFFF;}
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	.content, aside {float:none; width: 100%; }
+	.richie {width:48%;}
+	header{ background:url(../images/bg2.jpg) no-repeat center top; }
+	li {margin: 4%;}
+}
+
+@media screen and (max-width: 479px){
+	.content, aside {float:none; width: 100%; }
+	nav { display: none;}
+	h1 {padding-bottom: 5px;}
+	img {display: none;}
+	li {display: list-item; list-style-type: none;}
+	header{ background:url(../images/bg3.jpg) no-repeat center top; }
 }
